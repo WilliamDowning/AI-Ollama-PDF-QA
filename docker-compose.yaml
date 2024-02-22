@@ -1,0 +1,7 @@
+version: '0.1.0'
+services:
+  devcontainer:
+    image: mcr.microsoft.com/devcontainers/base:jammy
+    volumes:
+      - ../..:/workspaces:cached
+    command: sleep infinity
